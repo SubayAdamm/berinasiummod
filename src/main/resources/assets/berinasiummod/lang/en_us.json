@@ -1,3 +1,6 @@
 {
-  "item.berinasiummod.berinasium": "Polished Berinasium"
+  "item.berinasiummod.berinasium": "Polished Berinasium",
+  "item.berinasiummod.raw_berinasium": "Raw Berinasium",
+  "item.berinasiummod.refined_berinaisum": "Refined Berinasium",
+  "item.berinasiummod.berinasium_chunk": "Chunk Of Berinasium"
 }

@@ -22,6 +22,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.subayadamm.berinasiummod.block.ModBlocks;
 import net.subayadamm.berinasiummod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,6 +38,7 @@ public class BerinasiumMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
