@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "berinasiummod:berinasium_block"
+    }
+  ],
+  "result": {
+    "item": "berinasiummod:berinasium",
+    "count": 9
+  }
+}

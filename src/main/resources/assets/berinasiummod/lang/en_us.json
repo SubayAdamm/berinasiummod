@@ -1,6 +1,19 @@
 {
   "item.berinasiummod.berinasium": "Polished Berinasium",
   "item.berinasiummod.raw_berinasium": "Raw Berinasium",
-  "item.berinasiummod.refined_berinaisum": "Refined Berinasium",
-  "item.berinasiummod.berinasium_chunk": "Chunk Of Berinasium"
+  "item.berinasiummod.refined_berinasium": "Refined Berinasium",
+  "item.berinasiummod.berinasium_chunk": "Chunk Of Berinasium",
+
+  "item.berinasiummod.berinasium_longsword": "Berinasium Longsword",
+  "item.berinasiummod.berinasium_waraxe": "Berinasium War Axe",
+  "item.berinasiummod.berinasium_knife": "Berinasium Knife",
+  "item.berinasiummod.diamond_waraxe": "Diamond War Axe",
+  "item.berinasiummod.diamond_axe_head": "Diamond Axe Head",
+  "item.berinasiummod.steel_knife": "Steel Knife",
+
+  "itemGroup.berinasiumtab": "Berinasium Mod",
+
+  "block.berinasiummod.berinasium_block": "Berinasium Block",
+  "block.berinasiummod.berinasium_ore": "Berinasium Ore",
+  "block.berinasiummod.deepslate_berinasium_ore": "Deepslate Berinasium Ore"
 }
