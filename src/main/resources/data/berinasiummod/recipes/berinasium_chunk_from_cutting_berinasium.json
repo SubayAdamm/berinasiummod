@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "berinasiummod:berinasium"
+  },
+  "count": 4,
+  "result": "berinasiummod:berinasium_chunk"
+}
