@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "berinasiummod:diamond_sword_tip",
+      "item": "minecraft:diamond_sword"
+    }
+  ],
+  "result": {
+    "item": "berinasiummod:diamond_longsword",
+    "count": 1
+  }
+}

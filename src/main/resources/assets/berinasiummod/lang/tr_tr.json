@@ -1,0 +1,22 @@
+{
+  "item.berinasiummod.berinasium": "Berinasyum Külçesi",
+  "item.berinasiummod.raw_berinasium": "Saf Berinasyum",
+  "item.berinasiummod.refined_berinasium": "İşlenmiş Berinasyum",
+  "item.berinasiummod.berinasium_chunk": "Berinasyum Parçası",
+
+  "item.berinasiummod.berinasium_longsword": "Berinasyum Uzun Kılıç",
+  "item.berinasiummod.diamond_longsword": "Elmas Uzun Kılıç",
+  "item.berinasiummod.berinasium_waraxe": "Berinasyum Savaş Baltası",
+  "item.berinasiummod.berinasium_knife": "Berinasyum Bıçak",
+  "item.berinasiummod.diamond_waraxe": "Elmas Savaş Baltası",
+  "item.berinasiummod.steel_knife": "Çelik Bıçak",
+
+  "itemGroup.berinasiumtab": "Berinasyum Mod",
+
+  "block.berinasiummod.berinasium_block": "Berinasyum Blok",
+  "block.berinasiummod.berinasium_ore": "Berinasyum Madeni",
+  "block.berinasiummod.deepslate_berinasium_ore": "Derin Kayrak Berinasyum Madeni",
+
+  "item.berinasiummod.diamond_axe_head": "Elmas Balta Başı",
+  "item.berinasiummod.diamond_sword_tip": "Elmas Kılıç Ucu"
+}

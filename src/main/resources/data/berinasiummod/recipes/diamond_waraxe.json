@@ -1,17 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X#"
-  ],
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "berinasiummod:diamond_axe_head",
       "item": "minecraft:diamond_axe"
-    },
-    "X": {
-      "item": "berinasiummod:diamond_axe_head"
     }
-  },
+  ],
   "result": {
-    "item": "berinasiummod:diamond_waraxe"
+    "item": "berinasiummod:diamond_waraxe",
+    "count": 1
   }
 }

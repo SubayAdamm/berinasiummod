@@ -25,6 +25,9 @@ public class ModItems {
     public static final RegistryObject<Item> BERINASIUM_LONGSWORD = ITEMS.register("berinasium_longsword",
             () -> new SwordItem(Tiers.NETHERITE, 4, -2.7f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> DIAMOND_LONGSWORD = ITEMS.register("diamond_longsword",
+            () -> new SwordItem(Tiers.DIAMOND, 3, -2.8f,
+                    new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> BERINASIUM_WARAXE = ITEMS.register("berinasium_waraxe",
             () -> new AxeItem(Tiers.NETHERITE, 8, -3.1f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
@@ -41,6 +44,8 @@ public class ModItems {
 
     //dismantled stuff
     public static final RegistryObject<Item> DIAMOND_AXE_HEAD = ITEMS.register("diamond_axe_head",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> DIAMOND_SWORD_TIP = ITEMS.register("diamond_sword_tip",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
 
