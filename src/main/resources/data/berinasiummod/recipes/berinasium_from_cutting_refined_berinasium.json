@@ -2,6 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
+    "count": 4,
     "item": "berinasiummod:refined_berinasium"
   },
   "result": "berinasiummod:berinasium"

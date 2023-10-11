@@ -20,13 +20,15 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> BERINASIUM_CHUNK = ITEMS.register("berinasium_chunk",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> BERINASIUM_STEEL = ITEMS.register("berinasium_steel",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
     //equipment
     public static final RegistryObject<Item> BERINASIUM_LONGSWORD = ITEMS.register("berinasium_longsword",
             () -> new SwordItem(Tiers.NETHERITE, 4, -2.4f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> DIAMOND_LONGSWORD = ITEMS.register("diamond_longsword",
-            () -> new SwordItem(Tiers.DIAMOND, 3, -2.5f,
+            () -> new SwordItem(Tiers.DIAMOND, 4, -2.4f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> BERINASIUM_WARAXE = ITEMS.register("berinasium_waraxe",
             () -> new AxeItem(Tiers.NETHERITE, 8, -3.1f,

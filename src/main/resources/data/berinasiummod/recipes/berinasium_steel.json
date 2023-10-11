@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "berinasiummod:berinasium_chunk"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "berinasiummod:berinasium_steel"
+  }
+}
