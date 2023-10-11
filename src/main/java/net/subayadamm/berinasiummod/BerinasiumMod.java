@@ -24,6 +24,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subayadamm.berinasiummod.block.ModBlocks;
 import net.subayadamm.berinasiummod.item.ModItems;
+import net.subayadamm.berinasiummod.world.feature.ModConfiguredFeatures;
+import net.subayadamm.berinasiummod.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 @Mod(BerinasiumMod.MOD_ID)
@@ -39,6 +41,9 @@ public class BerinasiumMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

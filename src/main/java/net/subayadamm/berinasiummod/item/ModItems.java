@@ -23,10 +23,10 @@ public class ModItems {
 
     //equipment
     public static final RegistryObject<Item> BERINASIUM_LONGSWORD = ITEMS.register("berinasium_longsword",
-            () -> new SwordItem(Tiers.NETHERITE, 4, -2.7f,
+            () -> new SwordItem(Tiers.NETHERITE, 4, -2.4f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> DIAMOND_LONGSWORD = ITEMS.register("diamond_longsword",
-            () -> new SwordItem(Tiers.DIAMOND, 3, -2.8f,
+            () -> new SwordItem(Tiers.DIAMOND, 3, -2.5f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> BERINASIUM_WARAXE = ITEMS.register("berinasium_waraxe",
             () -> new AxeItem(Tiers.NETHERITE, 8, -3.1f,
@@ -35,10 +35,10 @@ public class ModItems {
             () -> new AxeItem(Tiers.DIAMOND, 7, -3.2f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> BERINASIUM_KNIFE = ITEMS.register("berinasium_knife",
-            () -> new SwordItem(Tiers.NETHERITE, 3, -2.7f,
+            () -> new SwordItem(Tiers.NETHERITE, 3, -2.0f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> STEEL_KNIFE = ITEMS.register("steel_knife",
-            () -> new SwordItem(Tiers.IRON, 2, -2.7f,
+            () -> new SwordItem(Tiers.IRON, 2, -2.0f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
 
