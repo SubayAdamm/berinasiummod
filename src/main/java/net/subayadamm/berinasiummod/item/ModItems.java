@@ -37,8 +37,11 @@ public class ModItems {
     public static final RegistryObject<Item> BERINASIUM_KNIFE = ITEMS.register("berinasium_knife",
             () -> new SwordItem(Tiers.NETHERITE, 3, -2.0f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> DIAMOND_KNIFE = ITEMS.register("diamond_knife",
+            () -> new SwordItem(Tiers.DIAMOND, 2, -2.0f,
+                    new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> STEEL_KNIFE = ITEMS.register("steel_knife",
-            () -> new SwordItem(Tiers.IRON, 2, -2.0f,
+            () -> new SwordItem(Tiers.IRON, 1, -2.0f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
 

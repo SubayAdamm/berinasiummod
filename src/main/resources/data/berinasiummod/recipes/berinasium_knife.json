@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "berinasiummod:diamond_knife"
+  },
+  "addition": {
+    "item": "berinasiummod:berinasium_chunk"
+  },
+  "result": {
+    "item": "berinasiummod:berinasium_knife"
+  }
+}
