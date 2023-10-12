@@ -46,14 +46,17 @@ public class ModItems {
             () -> new SwordItem(Tiers.IRON, 1, -2.0f,
                     new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_COMBAT).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
-
     //dismantled stuff
     public static final RegistryObject<Item> DIAMOND_AXE_HEAD = ITEMS.register("diamond_axe_head",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> DIAMOND_SWORD_TIP = ITEMS.register("diamond_sword_tip",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
-
+    //misc
+    public static final RegistryObject<Item> GLUE = ITEMS.register("glue",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> HONEY_WATER_MIX = ITEMS.register("honey_water_mix",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
 
     public static void register(IEventBus eventBus) {
