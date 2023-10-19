@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:water_bottle"
+    }
+  ],
+  "result": {
+    "item": "berinasiummod:diamond_waraxe",
+    "count": 1
+  }
+}
