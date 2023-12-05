@@ -57,6 +57,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
     public static final RegistryObject<Item> HONEY_WATER_MIX = ITEMS.register("honey_water_mix",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
+    public static final RegistryObject<Item> LIQUIFIED_HONEY = ITEMS.register("liquified_honey",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(ModCreativeModeTab.BERINASIUM_TAB)));
 
 
     public static void register(IEventBus eventBus) {
