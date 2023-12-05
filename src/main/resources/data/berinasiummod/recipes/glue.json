@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 125,
+  "experience": 0.7,
+  "group": "glue",
+  "ingredient": {
+    "item": "berinasiummod:honey_water_mix"
+  },
+  "result": "berinasiummod:glue"
+}
